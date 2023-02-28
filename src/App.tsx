@@ -13,15 +13,13 @@ function App() {
   return (
     <div id='home'>
       <NavbarHead/>
-      <Container fluid>
         <div className='masthead'>
-          <img src={background} className='img-fluid opacity-50'/>
+          <img src={background} className='img-fluid'/>
           <div className='imageMoving'>
             <figcaption><h1>Erique Greenwood</h1></figcaption>
             <figcaption><h5>Software Engineer</h5></figcaption>
           </div>
         </div>
-      </Container>
     </div>
   )
 }
