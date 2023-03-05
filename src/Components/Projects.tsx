@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import background1 from '../assets/port-back.jpg'
+import background1 from '../assets/port-back.jpg';
 import {FaReact, FaNodeJs} from 'react-icons/fa';
-import {SiTypescript} from 'react-icons/si'
+import {SiTypescript} from 'react-icons/si';
 
 
 function Projects() {
