@@ -1,0 +1,39 @@
+@import 'colors.css';
+
+#root {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color-scheme: light dark;
+  color: var(--textcolor);
+  background-color: var(--backgroundgrey);
+  background: var(--gradianttop);
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  display: flex;
+  height: 100vh;
+  color-scheme: light dark;
+  color: var(--textcolor);
+  background-color: var(--backgroundgrey);
+  background: var(--gradiantbottom);
+  justify-content: space-around;
+  align-items:center;
+}
+
+/* .cards {
+  max-width: 80vw;
+  max-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

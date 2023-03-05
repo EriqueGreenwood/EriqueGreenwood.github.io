@@ -1,0 +1,7 @@
+:root {
+    --backgroundgrey : #242424;
+    --gradiant : radial-gradient(circle at 50%, #253237, #242424);
+    --gradianttop :  linear-gradient(#253237 1%, #242424);
+    --gradiantbottom :  linear-gradient(to top, #253237 1%, #242424);
+    --textcolor : rgba(255, 255, 255, 0.87);
+}
