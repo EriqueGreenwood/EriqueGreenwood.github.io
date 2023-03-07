@@ -5,7 +5,9 @@ import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import background1 from '../assets/background.jpg';
-import {FaReact, FaNodeJs} from 'react-icons/fa';
+import background2 from '../assets/fatrat.jpg';
+import {FaReact, FaNodeJs, FaHtml5, FaCss3Alt} from 'react-icons/fa';
+import {DiJavascript1} from 'react-icons/di'
 import {SiTypescript} from 'react-icons/si';
 
 
@@ -30,6 +32,22 @@ function Projects() {
                 <Link to='/' className='col-4 mx-auto'>
                   <Button variant='dark' className='pe-5 ps-5'>View</Button>
                 </Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className=''>
+            <Card style={{ width: '18rem', height: '24rem'}}>
+            <Card.Img variant="top" src={background2} style={{height: '50%'}} />
+              <Card.Body>
+                <Card.Title style={{color: 'black'}}>Faux Artist Website</Card.Title>
+                <Card.Subtitle style={{color: 'black'}}>Built with: <FaHtml5/> <DiJavascript1 /> <FaCss3Alt /></Card.Subtitle>
+                <Card.Text style={{color: 'black'}}>
+                  You can see about the artist, some fake concert locations, and "purchase"
+                  some merch. 
+                </Card.Text>
+                <a href="https://festive-volhard-b0398b.netlify.app/index.html" target="_blank" className='col-4 mx-auto'>
+                  <Button variant='dark' className='pe-5 ps-5'>View</Button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
